@@ -1,0 +1,10 @@
+console.log("Task 7: Product Billing");
+console.log("---------------------------------");
+let productName=prompt("Enter the product name:-");
+let quantity=prompt("Enter the quantity:-");
+let price=45000;
+let totalamount=quantity*price;
+console.log(`${"Product Name    : "}${productName}`);
+console.log(`${"Quantity        : "}${quantity}`);
+console.log(`${"Price           : "}${price}`);
+console.log(`${"Total Amount    : "}${totalamount}`);

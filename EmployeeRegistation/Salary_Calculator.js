@@ -1,0 +1,12 @@
+console.log("Task 4: Salary Calculator");
+console.log("---------------------------------");
+let basicSalary=50000;
+let bonus=5000;
+let totalSalary=basicSalary+bonus;
+let tax=totalSalary*0.1;
+let netSalary=totalSalary-tax;
+console.log(`${"Basic Salary      : "}${basicSalary}`);
+console.log(`${"Bonus             : "}${bonus}`);
+console.log(`${"Total Salary      : "}${totalSalary}`);
+console.log(`${"Tax               : "}${tax}`);
+console.log(`${"Final Salary      : "}${netSalary}`);

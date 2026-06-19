@@ -1,0 +1,11 @@
+let moviename=prompt(`${"1.Karuppu\n 2.Jana Nayagan\n 3.LIK\n 4.Vikram\n  5.Happy Raj\n 6.Youth\n 7.Leo\n 8.Beast\n Enter the movie name:-"}`);
+let quantity=prompt("Enter the quantity:-");
+var ticketprice=250;
+var totalamount=quantity*ticketprice;
+document.writeln(`${"Movie Name      : "}${moviename}<br>`);
+document.writeln(`${"Quantity        : "}${quantity}<br>`);
+document.writeln(`${"Ticket Price    : "}${ticketprice}<br>`);
+document.writeln(`${"Total Amount    : "}${totalamount}<br>`);
+document.writeln(`${"====================================="}<br>`);
+document.writeln(`${"Thank you for booking the tickets.!"}<br>`);
+document.writeln(`${"Enjoy the movie.!"}`);
